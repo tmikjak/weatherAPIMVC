@@ -74,6 +74,7 @@ namespace WeatherAPIMVC.Controllers
             //SqlCommand insert = new SqlCommand();
             //insert.CommandText = "INSERT INTO weatherReports (temperature) VALUES (@tempVar)";
             //insert.Parameters.Add(new SqlParameter("@tempVar", tempDB));
+            //insert.Connection = con;
             //insert.ExecuteNonQuery();
 
             return View("About",model);
